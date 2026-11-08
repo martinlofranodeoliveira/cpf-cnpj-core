@@ -1,0 +1,14 @@
+{
+  "name": "cpf-cnpj-core",
+  "version": "0.1.0",
+  "description": "Brazilian CPF/CNPJ validation and check-digit generation (Federal Revenue mod-11). Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/doc.test.js",
+    "demo": "node bin/doc-check.mjs --assert"
+  }
+}
